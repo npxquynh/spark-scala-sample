@@ -18,6 +18,6 @@ object WordCount {
     .map { word =>
       (word, 1)
     }
-    .saveAsTextFile("./output/foodcount")
+    .saveAsTextFile("./output/foodcount.")
   }
 }
